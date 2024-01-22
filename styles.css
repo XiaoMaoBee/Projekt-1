@@ -424,6 +424,9 @@ a {
 .name-text-bertie,
 .name-text-frank {
   font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 @media (max-width: 1020px) {
@@ -446,6 +449,11 @@ a {
     padding-bottom: 20px;
   }
 
+  .name-text-bertie,
+  .name-text-frank {
+    position: static;
+  }
+
   .review-narrow-section-container {
     width: 85%;
   }
@@ -465,7 +473,7 @@ a {
     margin: 0px auto 50px;
   }
   .bertie-review-card-wrapper {
-    margin: 70px auto;
+    margin: 60px auto 20px;
   }
 
   .reviews-intro-text,
