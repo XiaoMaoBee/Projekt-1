@@ -254,9 +254,21 @@ a {
   flex-wrap: wrap;
 }
 
-.wrapper {
+.wrapper,
+.text-wrapper {
   width: calc(100% / 3 - 4px / 2);
   height: 180px;
+}
+
+.text-wrapper {
+  background-color: var(--background-4);
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  padding: 0 auto;
+  align-items: center;
+  font-size: 3vw;
+  font-weight: bold;
 }
 
 .img-gallery {
@@ -266,8 +278,14 @@ a {
 }
 
 @media (max-width: 768px) {
-  .wrapper {
+  .wrapper,
+  .text-wrapper {
     width: 100%;
+  }
+
+  .text-wrapper {
+    font-size: 20px;
+    height: 100px;
   }
 
   .trip-narrow-section-container {
