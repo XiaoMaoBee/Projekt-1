@@ -23,11 +23,15 @@ body {
   margin: 0 auto;
 }
 
+/* .narrow-container is used in more places 
+through out the code  */
 .narrow-container {
   width: 70%;
   margin: 0px auto;
 }
 
+/* .project-paragraph-font-size is used in 
+more places through out the code  */
 .project-paragraph-font-size {
   font-size: 14px;
 }
