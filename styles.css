@@ -38,7 +38,7 @@ more places through out the code  */
 
 /* NAVIGATION BAR */
 
-.section-container {
+.nav-container {
   background-color: var(--nav-background-color);
 }
 
@@ -146,6 +146,12 @@ a {
   padding: 3rem 0;
 }
 
+.about-us-img-wrapper {
+  background-image: url("./images/about-us.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .card {
   width: calc(100% / 2);
 }
@@ -160,7 +166,7 @@ a {
   height: 100%;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 900px) {
   .about-us-text-container {
     flex-direction: column;
   }
@@ -171,6 +177,7 @@ a {
 
   .about-us-img-wrapper {
     width: 100%;
+    height: 350px;
   }
 }
 
@@ -207,7 +214,7 @@ a {
 
 .icon-wrapper {
   text-align: center;
-  width: 15%;
+  width: 65px;
   font-size: 15px;
   margin-bottom: 90px;
 }
@@ -224,9 +231,6 @@ a {
     width: 85%;
   }
 
-  .icon-wrapper {
-    width: 30%;
-  }
   .icon-wwdo {
     width: 100%;
   }
